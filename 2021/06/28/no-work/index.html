@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Java 最常见的 208 道面试题 - leonce site</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="leonce site"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="leonce site"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="Java 最常见的 208 道面试题"><meta property="og:type" content="blog"><meta property="og:title" content="Java 最常见的 208 道面试题"><meta property="og:url" content="https://leonce.cn/2021/06/28/no-work/"><meta property="og:site_name" content="leonce site"><meta property="og:description" content="Java 最常见的 208 道面试题"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://leonce.cn/img/og_image.png"><meta property="article:published_time" content="2021-06-28T13:28:35.000Z"><meta property="article:modified_time" content="2021-06-29T02:03:32.423Z"><meta property="article:author" content="Leonce"><meta property="article:tag" content="interview"><meta property="article:tag" content="java"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://leonce.cn/2021/06/28/no-work/"},"headline":"Java 最常见的 208 道面试题","image":["https://leonce.cn/img/og_image.png"],"datePublished":"2021-06-28T13:28:35.000Z","dateModified":"2021-06-29T02:03:32.423Z","author":{"@type":"Person","name":"Leonce"},"publisher":{"@type":"Organization","name":"leonce site","logo":{"@type":"ImageObject","url":"https://leonce.cn/img/logo.svg"}},"description":"Java 最常见的 208 道面试题"}</script><link rel="canonical" href="https://leonce.cn/2021/06/28/no-work/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.svg" alt="leonce site" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2021-06-28T13:28:35.000Z" title="2021/6/28 下午9:28:35">2021-06-28</time></span><span class="level-item">Updated&nbsp;<time dateTime="2021-06-29T02:03:32.423Z" title="2021/6/29 上午10:03:32">2021-06-29</time></span><span class="level-item"><a class="link-muted" href="/categories/interview/">interview</a></span><span class="level-item">21 minutes read (About 3221 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">Java 最常见的 208 道面试题</h1><div class="content"><p>Java 最常见的 208 道面试题答案：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/64147696">https://zhuanlan.zhihu.com/p/64147696</a></p>
+<!--more-->
+
+<h3 id="一、网络相关"><a href="#一、网络相关" class="headerlink" title="一、网络相关"></a>一、网络相关</h3><h4 id="1-1-TCP相关"><a href="#1-1-TCP相关" class="headerlink" title="1.1 TCP相关"></a>1.1 TCP相关</h4><blockquote>
+<p>参考链接：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/044UVaCinUdGbof-SI-3XA">https://mp.weixin.qq.com/s/044UVaCinUdGbof-SI-3XA</a></p>
+</blockquote>
+<ul>
+<li>能不能说一说 TCP 和 UDP 的区别？</li>
+<li>说说TCP三次握手的过程？为什么是三次而不是两次、四次？</li>
+<li>说说TCP四次挥手的过程</li>
+<li>说说半连接队列和SYN Flood攻击的关系</li>
+<li>介绍一下 TCP 报文头部的字段</li>
+<li>说一下 tcp 粘包是怎么产生的？有什么办法可以解决？</li>
+<li>能不能说一说 TCP 的流量控制？</li>
+<li>能不能说说 TCP 的拥塞控制？</li>
+<li><em>TCP的超时重传时间是如何计算的？</em></li>
+<li><em>说说 TCP 快速打开的原理(TFO)</em></li>
+<li><em>能不能说说TCP报文中时间戳的作用？</em></li>
+<li><em>能不能说说 Nagle 算法和延迟确认？</em></li>
+<li><em>如何理解 TCP 的 keep-alive？</em></li>
+</ul>
+<h4 id="1-2-HTTP相关"><a href="#1-2-HTTP相关" class="headerlink" title="1.2 HTTP相关"></a>1.2 HTTP相关</h4><ul>
+<li>说说http数据格式的组成？</li>
+<li>能不能说说cookie和session的区别和关系？</li>
+<li>能不能说说http和https的区别？为什么https更安全？</li>
+<li>说说你了解http的常见状态码，并说说分别代表什么意思？</li>
+<li><em>你知道http的队头阻塞问题吗？说说你理解的队头阻塞问题。如何解决队头阻塞？</em></li>
+</ul>
+<h3 id="二、数据库相关"><a href="#二、数据库相关" class="headerlink" title="二、数据库相关"></a>二、数据库相关</h3><h4 id="2-1-mysql"><a href="#2-1-mysql" class="headerlink" title="2.1 mysql"></a>2.1 mysql</h4><ul>
+<li>你对mysql存储结构了解多少？说一说。</li>
+<li>你知道innodb存储是什么实现的？B+树是什么？B+树和B树的区别是什么？</li>
+<li>你知道mysql中的锁吗？行级锁和表级锁的区别是什么？</li>
+<li>你知道mysql事务是什么吗？事务有哪些隔离级别？</li>
+<li>你发现一条sql执行得很忙，你打算怎么对这条sql进行优化？</li>
+<li><em>你知道mysql的redo log和undo log吗？分别说一下在什么情况下使用？有什么区别？</em></li>
+<li><em>你知道mysql的主从同步是怎么实现的呢？如何解决主从同步的时延问题？</em></li>
+</ul>
+<h4 id="2-2-redis"><a href="#2-2-redis" class="headerlink" title="2.2 redis"></a>2.2 redis</h4><blockquote>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/5wAp844dUrV5djCcJzZipg">https://mp.weixin.qq.com/s/5wAp844dUrV5djCcJzZipg</a></p>
+</blockquote>
+<ul>
+<li>你知道为什么需要使用缓存？</li>
+<li>你知道memcache和redis的区别吗？说一说。</li>
+<li>你知道为什么redis能这么快？</li>
+<li>说一说redis的数据类型？你常常使用哪些数据类型？</li>
+<li>你知道如何通过redis实现分布式锁？</li>
+<li>你知道如何通过redis实现异步队列？</li>
+<li><em>你知道redis的持久化吗？持久化的步骤是怎样的呢？</em></li>
+<li><em>你知道redis的数据如何进行恢复吗?</em></li>
+<li><em>说一说你了解的redis哨兵机制。</em></li>
+<li><em>你知道redis的同步机制吗？大致流程是怎样的呢？</em></li>
+<li><em>你知道redis集群如何实现吗？一致性hash是什么？如何解决数据倾斜问题？</em></li>
+<li><em>你知道缓存雪崩、缓存穿透、缓存击穿分别是什么吗？如何解决呢？</em></li>
+</ul>
+<h3 id="三、操作系统"><a href="#三、操作系统" class="headerlink" title="三、操作系统"></a>三、操作系统</h3><h4 id="3-1-操作系统基础"><a href="#3-1-操作系统基础" class="headerlink" title="3.1 操作系统基础"></a>3.1 操作系统基础</h4><ul>
+<li>你知道进程和线程的区别吗?</li>
+<li>你知道堆和栈的区别吗？</li>
+<li>你知道并发和并行的区别吗？</li>
+<li>你知道死锁会在什么情况下出现吗？如何解决死锁问题？</li>
+<li>你知道内存泄露和内存溢出的区别吗？两个有没有什么关系?</li>
+<li><em>你知道孤儿进程、僵尸进程和守护进程的区别吗?</em></li>
+</ul>
+<h4 id="3-2-Linux"><a href="#3-2-Linux" class="headerlink" title="3.2 Linux"></a>3.2 Linux</h4><ul>
+<li>top命令、ps命令、netstat命令、awk命令、find命令、grep命令、wc命令、sed命令、head命令和tail命令。</li>
+<li>如何查找出现频率最高的100个IP地址</li>
+<li>如何统计文件中某个字符串出现的频率</li>
+<li>linux启动的第一个进程</li>
+<li>linux查看端口占用</li>
+<li>linux查看cpu和内存使用</li>
+<li><em>linux查看系统负载命令</em></li>
+<li><em>linux软链接和硬链接</em></li>
+<li><em>shell脚本基本语法和使用</em></li>
+</ul>
+<h3 id="四、算法和数据结构"><a href="#四、算法和数据结构" class="headerlink" title="四、算法和数据结构"></a>四、算法和数据结构</h3><h4 id="4-1-常见排序算法"><a href="#4-1-常见排序算法" class="headerlink" title="4.1 常见排序算法"></a>4.1 常见排序算法</h4><ul>
+<li>冒泡排序法</li>
+<li>插入排序法</li>
+<li>选择排序法</li>
+<li>快速排序法*&amp;快速排序优化*</li>
+<li>归并排序法</li>
+<li><em>希尔排序法</em></li>
+<li><em>堆排序法</em></li>
+<li><em>桶排序法</em></li>
+<li><em>基数排序法</em></li>
+<li><em>计数排序法</em></li>
+</ul>
+<h4 id="4-2-常见非排序算法"><a href="#4-2-常见非排序算法" class="headerlink" title="4.2 常见非排序算法"></a>4.2 常见非排序算法</h4><ul>
+<li>字符串操作</li>
+<li>数组操作</li>
+<li>递归</li>
+<li>回溯法</li>
+<li>二分搜索法</li>
+<li>分治法</li>
+<li><em>动态规划</em></li>
+</ul>
+<h4 id="4-3-常用数据结构"><a href="#4-3-常用数据结构" class="headerlink" title="4.3 常用数据结构"></a>4.3 常用数据结构</h4><ul>
+<li>链表（单向链表、双向链表）</li>
+<li>栈</li>
+<li>队列</li>
+<li>树（二叉树、平衡二叉树）</li>
+<li><em>堆（大顶堆、小顶堆）</em></li>
+</ul>
+<h3 id="五、JAVA基础"><a href="#五、JAVA基础" class="headerlink" title="五、JAVA基础"></a>五、JAVA基础</h3><blockquote>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/sufu1065/article/details/88051083">https://blog.csdn.net/sufu1065/article/details/88051083</a></p>
+</blockquote>
+<h4 id="5-1-语言基础"><a href="#5-1-语言基础" class="headerlink" title="5.1 语言基础"></a>5.1 语言基础</h4><ul>
+<li>JDK 和 JRE 有什么区别？</li>
+<li>== 和 equals 的区别是什么？</li>
+<li>两个对象的 hashCode()相同，则 equals()也一定为 true，对吗？</li>
+<li>final 在 java 中有什么作用？</li>
+<li>java 中的 Math.round(-1.5) 等于多少？</li>
+<li>String 属于基础的数据类型吗？</li>
+<li>java 中操作字符串都有哪些类？它们之间有什么区别？</li>
+<li>String str=”i”与 String str=new String(“i”)一样吗？</li>
+<li>如何将字符串反转？</li>
+<li>String 类的常用方法都有那些？</li>
+<li>抽象类必须要有抽象方法吗？</li>
+<li>普通类和抽象类有哪些区别？</li>
+<li>抽象类能使用 final 修饰吗？</li>
+<li>接口和抽象类有什么区别？</li>
+<li>java 中 IO 流分为几种？</li>
+<li>BIO、NIO、AIO 有什么区别？</li>
+<li>Files的常用方法都有哪些？</li>
+</ul>
+<h4 id="5-2-容器相关"><a href="#5-2-容器相关" class="headerlink" title="5.2 容器相关"></a>5.2 容器相关</h4><ul>
+<li>java 容器都有哪些？</li>
+<li>Collection 和 Collections 有什么区别？</li>
+<li>List、Set、Map 之间的区别是什么？</li>
+<li>HashMap 和 Hashtable 有什么区别？</li>
+<li>如何决定使用 HashMap 还是 TreeMap？</li>
+<li>说一下 HashMap 的实现原理？</li>
+<li>说一下 HashSet 的实现原理？</li>
+<li>ArrayList 和 LinkedList 的区别是什么？</li>
+<li>如何实现数组和 List 之间的转换？</li>
+<li>ArrayList 和 Vector 的区别是什么？</li>
+<li>Array 和 ArrayList 有何区别？</li>
+<li>在 Queue 中 poll()和 remove()有什么区别？</li>
+<li>哪些集合类是线程安全的？</li>
+<li>迭代器 Iterator 是什么？</li>
+<li>Iterator 怎么使用？有什么特点？</li>
+<li>Iterator 和 ListIterator 有什么区别？</li>
+<li>怎么确保一个集合不能被修改？</li>
+</ul>
+<h4 id="5-3-多线程相关"><a href="#5-3-多线程相关" class="headerlink" title="5.3 多线程相关"></a>5.3 多线程相关</h4><ul>
+<li>并行和并发有什么区别？</li>
+<li>线程和进程的区别？</li>
+<li>守护线程是什么？</li>
+<li>创建线程有哪几种方式？</li>
+<li>说一下 runnable 和 callable 有什么区别？</li>
+<li>线程有哪些状态？</li>
+<li>sleep() 和 wait() 有什么区别？</li>
+<li>notify()和 notifyAll()有什么区别？</li>
+<li>线程的 run()和 start()有什么区别？</li>
+<li>创建线程池有哪几种方式？</li>
+<li>线程池都有哪些状态？</li>
+<li>线程池中 submit()和 execute()方法有什么区别？</li>
+<li>在 java 程序中怎么保证多线程的运行安全？</li>
+<li>多线程锁的升级原理是什么？</li>
+<li>什么是死锁？</li>
+<li>怎么防止死锁？</li>
+<li>ThreadLocal 是什么？有哪些使用场景？</li>
+<li>说一下 synchronized 底层实现原理？</li>
+<li>synchronized 和 volatile 的区别是什么？</li>
+<li>synchronized 和 Lock 有什么区别？</li>
+<li>synchronized 和 ReentrantLock 区别是什么？</li>
+<li>说一下 atomic 的原理？</li>
+</ul>
+<h4 id="5-4-反射"><a href="#5-4-反射" class="headerlink" title="5.4 反射"></a>5.4 反射</h4><ul>
+<li>什么是反射？</li>
+<li>什么是 java 序列化？什么情况下需要序列化？</li>
+<li>动态代理是什么？有哪些应用？</li>
+<li>怎么实现动态代理？</li>
+</ul>
+<h4 id="5-5-对象拷贝"><a href="#5-5-对象拷贝" class="headerlink" title="5.5 对象拷贝"></a>5.5 对象拷贝</h4><ul>
+<li>为什么要使用克隆？</li>
+<li>如何实现对象克隆？</li>
+<li>深拷贝和浅拷贝区别是什么？</li>
+</ul>
+<h4 id="5-6-Java-Web"><a href="#5-6-Java-Web" class="headerlink" title="5.6 Java Web"></a>5.6 Java Web</h4><ul>
+<li>session 和 cookie 有什么区别？</li>
+<li>说一下 session 的工作原理？</li>
+<li>如果客户端禁止 cookie 能实现 session 还能用吗？</li>
+<li>spring mvc 和 struts 的区别是什么？</li>
+<li>你知道什么是sql注入吗？如何避免 sql 注入？</li>
+<li><em>什么是 XSS 攻击，如何避免？</em></li>
+<li><em>什么是 CSRF 攻击，如何避免？</em></li>
+</ul>
+<h4 id="5-7-异常"><a href="#5-7-异常" class="headerlink" title="5.7 异常"></a>5.7 异常</h4><ul>
+<li>throw 和 throws 的区别？</li>
+<li>final、finally、finalize 有什么区别？</li>
+<li>try-catch-finally 中哪个部分可以省略？</li>
+<li>try-catch-finally 中，如果 catch 中 return 了，finally 还会执行吗？</li>
+<li>常见的异常类有哪些？</li>
+</ul>
+<h4 id="5-8-设计模式"><a href="#5-8-设计模式" class="headerlink" title="5.8 设计模式"></a>5.8 设计模式</h4><ul>
+<li>说一下你熟悉的设计模式？</li>
+<li>简单工厂和抽象工厂有什么区别？</li>
+</ul>
+<h4 id="5-9-Spring-Spring-MVC"><a href="#5-9-Spring-Spring-MVC" class="headerlink" title="5.9 Spring/Spring MVC"></a>5.9 Spring/Spring MVC</h4><ul>
+<li>为什么要使用 spring？</li>
+<li>解释一下什么是 aop？</li>
+<li>解释一下什么是 ioc？</li>
+<li>spring 有哪些主要模块？</li>
+<li>spring 常用的注入方式有哪些？</li>
+<li>spring 中的 bean 是线程安全的吗？</li>
+<li>spring 支持几种 bean 的作用域？</li>
+<li>spring 自动装配 bean 有哪些方式？</li>
+<li>spring 事务实现方式有哪些？</li>
+<li>说一下 spring 的事务隔离？</li>
+<li>说一下 spring mvc 运行流程？</li>
+<li>spring mvc 有哪些组件？</li>
+<li>@RequestMapping 的作用是什么？</li>
+<li>@Autowired 的作用是什么？</li>
+</ul>
+<h4 id="5-10-Spring-Boot-Cloud"><a href="#5-10-Spring-Boot-Cloud" class="headerlink" title="5.10 Spring Boot/Cloud"></a>5.10 Spring Boot/Cloud</h4><ul>
+<li>什么是 spring boot？</li>
+<li>为什么要用 spring boot？</li>
+<li>spring boot 核心配置文件是什么？</li>
+<li>spring boot 配置文件有哪几种类型？它们有什么区别？</li>
+<li>spring boot 有哪些方式可以实现热部署？</li>
+<li>jpa 和 hibernate 有什么区别？</li>
+<li>什么是 spring cloud？</li>
+<li>spring cloud 断路器的作用是什么？</li>
+<li>spring cloud 的核心组件有哪些？</li>
+</ul>
+<h4 id="5-11-Hibernate"><a href="#5-11-Hibernate" class="headerlink" title="5.11 Hibernate"></a>5.11 Hibernate</h4><ul>
+<li>为什么要使用 hibernate？</li>
+<li>什么是 ORM 框架？</li>
+<li>hibernate 中如何在控制台查看打印的 sql 语句？</li>
+<li>hibernate 有几种查询方式？</li>
+<li>hibernate 实体类可以被定义为 final 吗？</li>
+<li>在 hibernate 中使用 Integer 和 int 做映射有什么区别？</li>
+<li>hibernate 是如何工作的？</li>
+<li>get()和 load()的区别？</li>
+<li>说一下 hibernate 的缓存机制？</li>
+<li>hibernate 对象有哪些状态？</li>
+<li>在 hibernate 中 getCurrentSession 和 openSession 的区别是什么？</li>
+<li>hibernate 实体类必须要有无参构造函数吗？为什么？</li>
+</ul>
+<h4 id="5-12-Mybatis"><a href="#5-12-Mybatis" class="headerlink" title="5.12 Mybatis"></a>5.12 Mybatis</h4><ul>
+<li>mybatis 中 #{}和 ${}的区别是什么？</li>
+<li>mybatis 有几种分页方式？</li>
+<li>RowBounds 是一次性查询全部结果吗？为什么？</li>
+<li>mybatis 逻辑分页和物理分页的区别是什么？</li>
+<li>mybatis 是否支持延迟加载？延迟加载的原理是什么？</li>
+<li>说一下 mybatis 的一级缓存和二级缓存？</li>
+<li>mybatis 和 hibernate 的区别有哪些？</li>
+<li>mybatis 有哪些执行器（Executor）？</li>
+<li>mybatis 分页插件的实现原理是什么？</li>
+<li>mybatis 如何编写一个自定义插件？</li>
+</ul>
+<h4 id="5-13-JVM"><a href="#5-13-JVM" class="headerlink" title="5.13 JVM"></a>5.13 JVM</h4><ul>
+<li>说一下 jvm 的主要组成部分？及其作用？</li>
+<li>说一下 jvm 运行时数据区？</li>
+<li>说一下堆栈的区别？</li>
+<li>队列和栈是什么？有什么区别？</li>
+<li>什么是双亲委派模型？</li>
+<li>说一下类加载的执行过程？</li>
+<li>怎么判断对象是否可以被回收？</li>
+<li>java 中都有哪些引用类型？</li>
+<li>说一下 jvm 有哪些垃圾回收算法？</li>
+<li>说一下 jvm 有哪些垃圾回收器？</li>
+<li>详细介绍一下 CMS 垃圾回收器？</li>
+<li>新生代垃圾回收器和老生代垃圾回收器都有哪些？有什么区别？</li>
+<li>简述分代垃圾回收器是怎么工作的？</li>
+<li>说一下 jvm 调优的工具？</li>
+<li>常用的 jvm 调优的参数都有哪些？</li>
+</ul>
+<h3 id="六、中间件"><a href="#六、中间件" class="headerlink" title="六、中间件"></a>六、中间件</h3><blockquote>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/sufu1065/article/details/88051083">https://blog.csdn.net/sufu1065/article/details/88051083</a></p>
+</blockquote>
+<h4 id="6-1-RabbitMQ"><a href="#6-1-RabbitMQ" class="headerlink" title="6.1 RabbitMQ"></a>6.1 RabbitMQ</h4><ul>
+<li>rabbitmq 的使用场景有哪些？</li>
+<li>rabbitmq 有哪些重要的角色？</li>
+<li>rabbitmq 有哪些重要的组件？</li>
+<li>rabbitmq 中 vhost 的作用是什么？</li>
+<li>rabbitmq 的消息是怎么发送的？</li>
+<li>rabbitmq 怎么保证消息的稳定性？</li>
+<li>rabbitmq 怎么避免消息丢失？</li>
+<li>要保证消息持久化成功的条件有哪些？</li>
+<li>rabbitmq 持久化有什么缺点？</li>
+<li>rabbitmq 有几种广播类型？</li>
+<li>rabbitmq 怎么实现延迟消息队列？</li>
+<li>rabbitmq 集群有什么用？</li>
+<li>rabbitmq 节点的类型有哪些？</li>
+<li>rabbitmq 集群搭建需要注意哪些问题？</li>
+<li>rabbitmq 每个节点是其他节点的完整拷贝吗？为什么？</li>
+<li>rabbitmq 集群中唯一一个磁盘节点崩溃了会发生什么情况？</li>
+<li>rabbitmq 对集群节点停止顺序有要求吗？</li>
+</ul>
+<h4 id="6-2-Kafka"><a href="#6-2-Kafka" class="headerlink" title="6.2 Kafka"></a>6.2 Kafka</h4><ul>
+<li>kafka 可以脱离 zookeeper 单独使用吗？为什么？</li>
+<li>kafka 有几种数据保留的策略？</li>
+<li>kafka 同时设置了 7 天和 10G 清除数据，到第五天的时候消息达到了 10G，这个时候 kafka 将如何处理？</li>
+<li>什么情况会导致 kafka 运行变慢？</li>
+<li>使用 kafka 集群需要注意什么？</li>
+</ul>
+<h4 id="6-3-Zookeeper"><a href="#6-3-Zookeeper" class="headerlink" title="6.3 Zookeeper"></a>6.3 Zookeeper</h4><ul>
+<li>zookeeper 是什么？</li>
+<li>zookeeper 都有哪些功能？</li>
+<li>zookeeper 有几种部署模式？</li>
+<li>zookeeper 怎么保证主从节点的状态同步？</li>
+<li>集群中为什么要有主节点？</li>
+<li>集群中有 3 台服务器，其中一个节点宕机，这个时候 zookeeper 还可以使用吗？</li>
+<li>说一下 zookeeper 的通知机制？</li>
+</ul>
+<h3 id="七、其他"><a href="#七、其他" class="headerlink" title="七、其他"></a>七、其他</h3><p>Java 最常见的 208 道面试题答案：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/64147696">https://zhuanlan.zhihu.com/p/64147696</a></p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>Java 最常见的 208 道面试题</p><p><a href="https://leonce.cn/2021/06/28/no-work/">https://leonce.cn/2021/06/28/no-work/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Leonce</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2021-06-28</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2021-06-29</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/interview/">interview</a><a class="link-muted mr-2" rel="tag" href="/tags/java/">java</a></div><div class="notification is-danger">You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.</div></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">Like this article? Support the author with</h3><div class="buttons is-centered"><a class="button donate" href="/" target="_blank" rel="noopener" data-type="afdian"><span class="icon is-small"><i class="fas fa-charging-station"></i></span><span>Afdian.net</span></a><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>Alipay</span><span class="qrcode"><img src="/" alt="Alipay"></span></a><a class="button donate" href="/" target="_blank" rel="noopener" data-type="buymeacoffee"><span class="icon is-small"><i class="fas fa-coffee"></i></span><span>Buy me a coffee</span></a><a class="button donate" href="/" target="_blank" rel="noopener" data-type="patreon"><span class="icon is-small"><i class="fab fa-patreon"></i></span><span>Patreon</span></a><div class="notification is-danger">You forgot to set the <code>business</code> or <code>currency_code</code> for Paypal. Please set it in <code>_config.yml</code>.</div><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>Wechat</span><span class="qrcode"><img src="/" alt="Wechat"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2021/06/28/about-pointer/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">面试中的指针常见问题</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/06/28/about-mysql/"><span class="level-item">面试中的mysql常见问题</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div class="notification is-danger">You forgot to set the <code>shortname</code> for Disqus. Please set it in <code>_config.yml</code>.</div></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="Leonce"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Leonce</p><p class="is-size-6 is-block">BUG Development Engineer</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Chengdu, Sichuan</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">10</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Category</p><a href="/categories"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">9</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/leoncelei"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/interview/"><span class="level-start"><span class="level-item">interview</span></span><span class="level-end"><span class="level-item tag">6</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-28T13:28:35.000Z">2021-06-28</time></p><p class="title"><a href="/2021/06/28/about-dp/">面试中的dp常见问题</a></p><p class="categories"><a href="/categories/interview/">interview</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-28T13:28:35.000Z">2021-06-28</time></p><p class="title"><a href="/2021/06/28/about-linux/">面试中的linux常见问题</a></p><p class="categories"><a href="/categories/interview/">interview</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-28T13:28:35.000Z">2021-06-28</time></p><p class="title"><a href="/2021/06/28/about-pointer/">面试中的指针常见问题</a></p><p class="categories"><a href="/categories/interview/">interview</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-28T13:28:35.000Z">2021-06-28</time></p><p class="title"><a href="/2021/06/28/no-work/">Java 最常见的 208 道面试题</a></p><p class="categories"><a href="/categories/interview/">interview</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2021-06-28T13:28:35.000Z">2021-06-28</time></p><p class="title"><a href="/2021/06/28/about-mysql/">面试中的mysql常见问题</a></p><p class="categories"><a href="/categories/interview/">interview</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">June 2021</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/dp/"><span class="tag">dp</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/interview/"><span class="tag">interview</span><span class="tag">6</span></a></div><div class="control"><a class="tags has-addons" href="/tags/interview-python/"><span class="tag">interview python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/java/"><span class="tag">java</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/kernel/"><span class="tag">kernel</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/linux/"><span class="tag">linux</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/mysql/"><span class="tag">mysql</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/network/"><span class="tag">network</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/pointer/"><span class="tag">pointer</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.svg" alt="leonce site" height="28"></a><p class="is-size-7"><span>&copy; 2021 Leonce</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
