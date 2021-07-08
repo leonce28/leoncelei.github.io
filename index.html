@@ -1,208 +1,8 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>暴龙战士</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="暴龙战士"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="暴龙战士"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="暴龙战士"><meta property="og:url" content="/img/og_image.png"><meta property="og:site_name" content="暴龙战士"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="/img/og_image.png"><meta property="article:author" content="Leonce"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://leonce.cn"},"headline":"暴龙战士","image":["https://leonce.cn/img/og_image.png"],"author":{"@type":"Person","name":"Leonce"},"publisher":{"@type":"Organization","name":"暴龙战士","logo":{"@type":"ImageObject","url":"https://leonce.cn/img/logo.png"}},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="暴龙战士" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item is-active" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/photo">相册</a><a class="navbar-item" href="/music">音乐</a><a class="navbar-item" href="/movie">电影</a><a class="navbar-item" href="/game">游戏</a><a class="navbar-item" href="/404">公益</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/08/linux-q-a/"><img class="fill" src="/covers/cover_4.png" alt="linux Q&amp;A"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-08T05:21:09.000Z" title="2021/7/8 下午1:21:09">2021-07-08</time>发表</span><span class="level-item"><time dateTime="2021-07-08T06:14:59.415Z" title="2021/7/8 下午2:14:59">2021-07-08</time>更新</span><span class="level-item">20 分钟读完 (大约2946个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/08/linux-q-a/">linux Q&amp;A</a></h1><div class="content"><h3 id="一、基础项"><a href="#一、基础项" class="headerlink" title="一、基础项"></a>一、基础项</h3><ol>
-<li><p>查看文件行数：<code>wc -l a.txt </code></p>
-</li>
-<li><p>查看前10行：<code>head -n 10 a.txt</code></p>
-</li>
-<li><p>查看后10行：<code>tail -n 10 a.txt</code>。</p>
-</li>
-<li><p>查看运行中的程序：<code>ps -aux | grep mysql</code></p>
-</li>
-<li><p>查看性能：<code>top</code></p>
-</li>
-<li><p>查看端口：<code>netstat -nltp</code></p>
-</li>
-<li><p>查看文件内容和保存：<code>vim a.txt</code>  或者 <code>vi a.txt</code>，vim是vi的升级版，兼容vi并比vi更强大。保存使用<code>:wq </code></p>
-</li>
-</ol>
-<h3 id="二、系统项"><a href="#二、系统项" class="headerlink" title="二、系统项"></a>二、系统项</h3><ol>
-<li>如何查看系统内核的版本：<code>uname -a</code>或者<code>cat /proc/version</code></li>
-<li>如何查看系统当前的 IP 地址：<code>ifconfig -a</code>或者<code>ip addr show</code></li>
-<li>如何查看磁盘还有多少剩余空间：<code>df -ah</code></li>
-<li>如何在系统中管理服务：<ul>
-<li>查看服务状态：<code>service/ [servicename] status</code> 或者 <code>systemctl status [servicename]</code></li>
-<li>启动/停止/重启服务：<code>service [servicename] [start|stop|restart]</code> 或者 <code>systemctl [start|stop|restart] [servicename]</code></li>
-<li>重新加载服务配置文件（不重启服务）：<code>service [servicename] [reload]</code> 或者 <code>systemctl [reload] [servicename]</code></li>
-</ul>
-</li>
-<li>如何查看一个目录的大小：<code>du -sh [目录]</code></li>
-<li>如何查看你系统中开放的端口号：<code>netsat -tulpn</code> 或者 <code>ss</code></li>
-<li>如何查看某个进程对 CPU 的使用情况：<ul>
-<li>可以使用 top 命令。<code>top</code>命令是Linux下常用的性能分析工具，能够实时显示系统中各个进程的资源占用状况，类似于Windows的任务管理器。</li>
-<li>使用 ps 命令。<code>ps aux</code>可以显示所有使用者的进程，最常用的方法是<code>ps aux</code>，然后再利用一个管道符号导向到grep去查找特定的进程。比如查看nginx 进程可以用<code>ps aux | grep nginx</code></li>
-</ul>
-</li>
-<li>Linux里如何来做挂载：<code>mount</code></li>
-<li>如何查看一些你不太熟悉的命令：<code>man</code> 或者 网络查资料</li>
-</ol>
-<h3 id="三、填空项"><a href="#三、填空项" class="headerlink" title="三、填空项"></a>三、填空项</h3><ol>
-<li><p>在Linux 系统 中，以<code>文件</code>方式访问设备 。</p>
-</li>
-<li><p>Linux 内核引导时，从文件<code>/etc/fstab</code>中读取要加载的文件系统 。</p>
-</li>
-<li><p>Linux 文件系统中每个文件用<code>indoe-i``节点</code>来标识。</p>
-</li>
-<li><p>全部磁盘块由四个部分组成，分别为<code>引导块</code> 、<code>专用块</code> 、 <code>i</code> <code>节点表块</code> 和 <code>数据存储块</code> 。</p>
-</li>
-<li><p>链接分为：<code>硬链接</code> 和 <code>符号链接</code> 。</p>
-</li>
-<li><p>超级块包含了<code>i节点表</code> 和 <code>空闲块表</code> 等重要的文件系统信息。</p>
-</li>
-<li><p>某文件的权限为：d-rw-_r–_r–，用数值形式表示该权限，则该八进制数为：<code>644</code> ，该文件属性是<code>目录</code> 。</p>
-</li>
-<li><p>前台启动的进程使用<code>Ctrl+c</code> 终止。</p>
-</li>
-<li><p><code>静态</code> 路由 设定后，若 网络 拓扑结构发生变化，需由系统 管理 员 修改路由的 设置 。</p>
-</li>
-<li><p>网络管理的重要任务是：<code>控制</code> 和 <code>监控</code> 。</p>
-</li>
-<li><p>安装Linux 系统对硬盘分区时，必须有两种分区类型：<code>文件系统分区</code> 和 <code>交换分区</code> 。</p>
-</li>
-<li><p>编写的 Shell 程序运行前必须赋予该脚本文件<code>执行</code> 权限。</p>
-</li>
-<li><p>系统管理的任务之一是能够在分布式 环境中实现对程序和数据的<code>安全保护、备份、恢复和更新</code>。</p>
-</li>
-<li><p><code>系统交换分区</code>是作为系统虚拟存储器 的一块区域 。</p>
-</li>
-<li><p>内核分为<code>进程管理系统</code> 、 <code>内存管理系统</code> 、 <code>I/O 管理系统</code> 和<code>文件管理系统</code> 等四个子系统。</p>
-</li>
-<li><p>内核配置是系统管理员在改变<code>系统配置硬件</code> 时要进行的重要操作。</p>
-</li>
-<li><p>在安装Linux 系统中，使用<code>netconfig</code> 程序对网络进行配置，该安装程序会一步步提示用户 输入<code>主机名</code>、<code>域名</code>、<code>域名服务器</code> 、<code>IP地址</code>、<code>网关地址</code> 和<code>子网掩码</code> 等必要信息。</p>
-</li>
-<li><p>唯一标识每一个用户的是<code>用户ID</code> 和<code>用户名</code> 。</p>
-</li>
-<li><p><code>RIP</code> 协议 是最为普遍的一种内部协议，一般称为动态路由信息协议 。</p>
-</li>
-<li><p>在Linux 系统中所有内容都被表示为<code>文件</code>，组织文件的各种方法称为<code>文件系统</code> 。</p>
-</li>
-<li><p><code>DHCP</code> 可以实现动态 IP 地址分配。</p>
-</li>
-<li><p>系统网络管理员的管理对象是<code>服务器</code> 、<code>用户</code> 和<code>服务器的进程</code> 以及<code>系统的各种资源</code>。</p>
-</li>
-<li><p>网络管理通常由<code>监测</code>、<code>传输</code>和<code>管理</code> 三部分组成，其中<code>管理部分</code>是整个网络管理的中心。</p>
-</li>
-<li><p>当想删除本系统用不上的设备驱动程序 时必须<code>编译内核</code>，当内核不支持系统上的设备驱动程序 时，必须对<code>内核升级</code> 。</p>
-</li>
-<li><p><code>Ping</code> 命令可以测试网络中本机系统是否能到达一台远程主机 ，所以常常用于<code>测试网络的连通性</code> 。</p>
-</li>
-<li><p>vi 编辑器具有两种工作模式： <code>命令 模式</code> 和 <code>输入模式</code> 。</p>
-</li>
-<li><p>可以用ls –al 命令来观察文件的权限，每个文件的权限都用10 位表示，并分为四段，其中第一段占 1 位，表示 <code>文件类型</code> ，第二段占3 位，表示文件<code>所有者对该文件的权限。</code></p>
-</li>
-<li><p>进程与程序的区别在于其动态性，动态的产生和终止，从产生到终止进程可以具有的基本状态为：<code>运行态</code> 、 <code>就绪态</code> 和 <code>等待态（阻塞态）</code> 。</p>
-</li>
-<li><p>DNS 实际上是分布在internet 上的主机信息的<code>数据库</code> ，其作用<code>是实现IP地址和主机名之间的转换</code>。</p>
-</li>
-<li><p><code>Apache</code> 是实现WWW服务器功能 的 应用 程序，即通常所说的浏览web 服务器，在服务器端为用户提供浏览 web 服务的就是apache 应用程序。</p>
-</li>
-<li><p>在Linux 系统上做备份可以有两种类型：<code>系统备份</code> 和<code>用户备份</code> 。其中前者是指对<code>操作系统</code>的备份，后者是指对应用程序和用户文件的备份 。</p>
-</li>
-<li><p>在使用ls 命令时，用八进制形式显示非打印字符应使用参数<code>-b</code> 。</p>
-</li>
-<li><p>Linux 使用支持 Windows 9.x/2000 长文件名的文件系统的类型是 <code>vfat</code> 。</p>
-</li>
-<li><p>设定限制用户使用磁盘空间的命令是<code>quota</code>。</p>
-</li>
-<li><p>在Linux 系统中，用来存放系统所需要的配置文件和子目录的目录是<code>/etc</code> 。</p>
-</li>
-<li><p><code>硬连接</code>只能建立对文件 链接。<code>符号链接</code>可以跨不同文件系统创建。</p>
-</li>
-<li><p>套接字文件的属性位是<code>s</code> 。</p>
-</li>
-<li><p>结束后台进程的命令是<code>kill</code> 。</p>
-</li>
-<li><p>进程的运行有两种方式，即<code>独立运行</code>和<code>使用父进程运行</code> 。</p>
-</li>
-<li><p>Links 分为<code>硬链接</code>和<code>符号链接</code> 。</p>
-</li>
-<li><p>在超级用户下显示Linux 系统中正在运行的全部进程，应使用的命令及参数是<code>ps-aux</code> 。</p>
-</li>
-<li><p>管道文件的属性位是<code>p</code> 。</p>
-</li>
-<li><p>将前一个命令的标准输出作为后一个命令的标准输入，称之为<code>管道</code> 。</p>
-</li>
-<li><p>为脚本程序指定执行权的命令及参数是<code>chmod a+x filename</code> 。</p>
-</li>
-<li><p>进行远程登录的命令是<code>telnet</code> 。</p>
-</li>
-<li><p>欲发送10个分组报文测试与主机abc.tuu.edu.cn 的连通性，应使用的命令和参数是：<code>ping abc.tuu.edu.cn –c 10</code> 。</p>
-</li>
-<li><p>DNS 服务器的进程命名为named，当其启动时，自动装载 <code>/etc</code> 目录下的<code>named.conf</code> 文件中定义的DNS 分区数据库文件。</p>
-</li>
-<li><p>Apache 服务器进程配置文件是<code>httpd.conf</code> 。</p>
-</li>
-<li><p>在 Linux 系统中，压缩文件后生成后缀为<code>.gz</code>文件的命令是<code>gzip</code> 。</p>
-</li>
-<li><p>在用vi 编辑文件时，将文件内容存入test.txt 文件中，应在命令模式下键入 ：<code>wtest.txt</code> 。</p>
-</li>
-<li><p>可以在标准输出上显示整年日历的命令及参数是<code>cal -y</code> 。</p>
-</li>
-<li><p>在shell 编程时，使用方括号表示测试条件的规则是：<code>方括号两边必须有空格</code> 。</p>
-</li>
-<li><p>检查已安装的文件系统/dev/sda5 是否正常，若检查有错，则自动修复，其命令及参数是<code>fsck</code> <code>–a /dev/sda5</code> 。</p>
-</li>
-<li><p>在Windows9.x 环境下共享Unix/Linux 中的用户目录的一个工具是<code>Samba</code> 服务器 。</p>
-</li>
-<li><p>系统管理员的职责是进行<code>系统资源管理</code>、<code>系统性能管理</code>、<code>设备管理</code>、<code>安全管理</code>和<code>系统性能监测</code> 。</p>
-</li>
-<li><p>在Linux 系统中，测试DNS 服务器是否能够正确解析 域名的的客户端命令，使用命令<code>nslookup</code> 。</p>
-</li>
-<li><p>在Linux 系统下，第二个IDE 通道的硬盘（从盘）被标识为<code>sdb</code> 。</p>
-</li>
-<li><p>当系统管理员需升级内核版本和改变系统硬件配置时，应<code>重新编译内核</code> 。</p>
-</li>
-<li><p>如果只是要修改系统的IP 地址，应修改<code>/etc/rc.d/rc.inet1</code> 配置文件。</p>
-</li>
-<li><p>当LAN 内没有条件建立DNS 服务器，但又想让局域网内的用户可以使用计算机名互相访问时，应配置<code>/etc/hosts</code> 文件。</p>
-</li>
-<li><p>在vi 编辑环境下，使用<code>Esc</code> 键 进行模式转换。</p>
-</li>
-<li><p>Slackware Linux 9.0 通常使用<code>ext3</code> 文件系统，系统的全部磁盘块由四 部分组成。</p>
-</li>
-<li><p>将/home/stud1/wang 目录做归档压缩，压缩后生成wang.tar.gz 文件，并将此文件保存到/home 目录下，实现此任务的tar 命令格式<code>tar zcvf /home/wang.tar.gz/home/stud1/wang</code> 。</p>
-</li>
-<li><p>管道就是将前一个命令的 <code>标准输出</code> 作为后一个命令的<code>标准输入</code> 。</p>
-</li>
-<li><p>在使用手工的方法配置网络时，可通过修改<code>/etc/HOSTNAME</code> 文件来改变主机名，若要配置该计算机的域名解析客户端，需配置<code>/etc/resolv.conf</code> 文件。</p>
-</li>
-<li><p>启动进程有手动启动和调度启动两种方法，其中调度启动常用的命令为 <code>at</code> 、 <code>batch</code>和 <code>crontab</code> 。</p>
-</li>
-<li><p>test.bns.com.cn 的域名是<code>bns.com.cn</code> ，如果要配置一域名服务器，应在<code>named.conf</code> 文件中定义DNS 数据库的工作目录。</p>
-</li>
-<li><p>Sendmail 邮件系统使用的两个主要协议是：<code>SMTP</code> 和 <code>POP</code> ，前者用来发送邮件,后者用来接收邮件。</p>
-</li>
-<li><p>DHCP 是动态主机配置协议的简称，其作用是：<code>为网络中的主机分配IP 地址</code> 。</p>
-</li>
-<li><p>目前代理服务器使用的软件包有很多种，教材中使用的是<code>squid</code> 。</p>
-</li>
-<li><p>rm 命令可删除文件或目录，其主要差别就是是否使用递归开关<code>-r</code>。</p>
-</li>
-<li><p><code>mv</code> 命令可以移动文件和目录，还可以为文件和目录重新命名。</p>
-</li>
-<li><p>路由选择 协议（RIP）的跳数表示到达目的地之前必须通过的网关 数，RIP 接受的最长距离是<code>15</code> 跳 。</p>
-</li>
-<li><p>ping 命令用于测试网络的连通性，ping 命令通过<code>ICMP</code> 协议（internet 控制信息协议）来实现。</p>
-</li>
-<li><p><code>nfs</code> 协议 用于实现 Unix （/linux）主机之间的文件系统共享。</p>
-</li>
-<li><p>shell 不仅是用户命令的解释器 ，它同时也是一种功能强大的编程语言。 <code>bash</code> 是Linux 的缺省shell。</p>
-</li>
-<li><p>用<code>&gt;&gt;</code> 符号将输出重定向内容附加在原文的后面。</p>
-</li>
-<li><p>增加一个用户的命令是：<code>adduser</code> 或<code>useradd</code> 。</p>
-</li>
-<li><p>进行字符串查找，使用<code>grep</code> 命令。</p>
-</li>
-<li><p>使用<code>*</code> 每次匹配若干个字符。</p>
-</li>
-<li><p><code>/sbin</code> 目录用来存放系统管理员使用的管理程序。</p>
-</li>
-</ol>
-</div></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/07/interview-review/"><img class="fill" src="/covers/cover_1.png" alt="软件测试面经总结"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-07T14:33:15.000Z" title="2021/7/7 下午10:33:15">2021-07-07</time>发表</span><span class="level-item"><time dateTime="2021-07-08T01:52:26.447Z" title="2021/7/8 上午9:52:26">2021-07-08</time>更新</span><span class="level-item">6 分钟读完 (大约960个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/07/interview-review/">软件测试面经总结</a></h1><div class="content"><p>软件测试面经总结：</p>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>暴龙战士</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="暴龙战士"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="暴龙战士"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="暴龙战士"><meta property="og:url" content="/img/og_image.png"><meta property="og:site_name" content="暴龙战士"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="/img/og_image.png"><meta property="article:author" content="Leonce"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://leonce.cn"},"headline":"暴龙战士","image":["https://leonce.cn/img/og_image.png"],"author":{"@type":"Person","name":"Leonce"},"publisher":{"@type":"Organization","name":"暴龙战士","logo":{"@type":"ImageObject","url":"https://leonce.cn/img/logo.png"}},"description":""}</script><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" defer></script><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.4.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="暴龙战士" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item is-active" href="/">首页</a><a class="navbar-item" href="/archives">归档</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/photo">相册</a><a class="navbar-item" href="/music">音乐</a><a class="navbar-item" href="/movie">电影</a><a class="navbar-item" href="/game">游戏</a><a class="navbar-item" href="/404">公益</a><a class="navbar-item" href="/about">关于</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-6-widescreen"><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/08/linux-q-a/"><img class="fill" src="/covers/cover_3.png" alt="linux Q&amp;A"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-08T05:21:09.000Z" title="2021/7/8 下午1:21:09">2021-07-08</time>发表</span><span class="level-item"><time dateTime="2021-07-08T06:16:56.539Z" title="2021/7/8 下午2:16:56">2021-07-08</time>更新</span><span class="level-item">20 分钟读完 (大约3025个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/08/linux-q-a/">linux Q&amp;A</a></h1><div class="content"><p>如果你要去面试一个Linux相关的职位，下面这些最常见的问题一定要会，否则你的面试可能就危险了。这些都是比较基本的问题，需要要理解，不能光死记硬背，最好手动敲一遍。</p></div><a class="article-more button is-small is-size-7" href="/2021/07/08/linux-q-a/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/07/interview-review/"><img class="fill" src="/covers/cover_2.png" alt="软件测试面经总结"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-07T14:33:15.000Z" title="2021/7/7 下午10:33:15">2021-07-07</time>发表</span><span class="level-item"><time dateTime="2021-07-08T01:52:26.447Z" title="2021/7/8 上午9:52:26">2021-07-08</time>更新</span><span class="level-item">6 分钟读完 (大约960个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/07/interview-review/">软件测试面经总结</a></h1><div class="content"><p>软件测试面经总结：</p>
 <ol>
 <li>优炫软件 没过</li>
-</ol></div><a class="article-more button is-small is-size-7" href="/2021/07/07/interview-review/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/07/linux-fs/"><img class="fill" src="/covers/cover_4.png" alt="Linux文件系统"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-07T02:44:19.000Z" title="2021/7/7 上午10:44:19">2021-07-07</time>发表</span><span class="level-item"><time dateTime="2021-07-07T05:05:36.759Z" title="2021/7/7 下午1:05:36">2021-07-07</time>更新</span><span class="level-item">1 分钟读完 (大约216个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/07/linux-fs/">Linux文件系统</a></h1><div class="content"><p>在 Linux 系统中一切皆文件，除了通常所说的狭义的文件以外，目录、设备、套接字和管道等都是文件。</p>
+</ol></div><a class="article-more button is-small is-size-7" href="/2021/07/07/interview-review/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/07/linux-fs/"><img class="fill" src="/covers/cover_0.png" alt="Linux文件系统"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-07T02:44:19.000Z" title="2021/7/7 上午10:44:19">2021-07-07</time>发表</span><span class="level-item"><time dateTime="2021-07-07T05:05:36.759Z" title="2021/7/7 下午1:05:36">2021-07-07</time>更新</span><span class="level-item">1 分钟读完 (大约216个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/07/linux-fs/">Linux文件系统</a></h1><div class="content"><p>在 Linux 系统中一切皆文件，除了通常所说的狭义的文件以外，目录、设备、套接字和管道等都是文件。</p>
 <p>文件系统在不同的上下文中有不同的含义：</p>
 <ul>
 <li><p>在存储设备上组织文件的方法，包括数据结构和访问方法，到存储设备。</p>
@@ -211,7 +11,7 @@
 </li>
 <li><p>内核中负责管理和存储文件的模块，即文件系统模块。</p>
 </li>
-</ul></div><a class="article-more button is-small is-size-7" href="/2021/07/07/linux-fs/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/05/about-rpc/"><img class="fill" src="/covers/cover_0.png" alt="跨语言通信方案：protobuf、thrift、avro"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-05T05:09:04.000Z" title="2021/7/5 下午1:09:04">2021-07-05</time>发表</span><span class="level-item"><time dateTime="2021-07-07T05:16:40.280Z" title="2021/7/7 下午1:16:40">2021-07-07</time>更新</span><span class="level-item">10 分钟读完 (大约1520个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/05/about-rpc/">跨语言通信方案：protobuf、thrift、avro</a></h1><div class="content"><p>常用的跨语言通信方案：</p>
+</ul></div><a class="article-more button is-small is-size-7" href="/2021/07/07/linux-fs/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/07/05/about-rpc/"><img class="fill" src="/covers/cover_3.png" alt="跨语言通信方案：protobuf、thrift、avro"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-07-05T05:09:04.000Z" title="2021/7/5 下午1:09:04">2021-07-05</time>发表</span><span class="level-item"><time dateTime="2021-07-07T05:16:40.280Z" title="2021/7/7 下午1:16:40">2021-07-07</time>更新</span><span class="level-item">10 分钟读完 (大约1520个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/07/05/about-rpc/">跨语言通信方案：protobuf、thrift、avro</a></h1><div class="content"><p>常用的跨语言通信方案：</p>
 <ul>
 <li>基于SOAP消息格式的WebService</li>
 <li>基于JSON消息格式的RESTful 服务</li>
@@ -226,7 +26,7 @@
 <li>Google protobuf (<a target="_blank" rel="noopener" href="http://code.google.com/p/protobuf">http://code.google.com/p/protobuf</a>)</li>
 <li>Apache Thrift （<a target="_blank" rel="noopener" href="http://thrift.apache.org/">http://thrift.apache.org/</a>)</li>
 <li>Apache Avro (<a target="_blank" rel="noopener" href="http://avro.apache.org/">http://avro.apache.org/</a>)</li>
-</ul></div><a class="article-more button is-small is-size-7" href="/2021/07/05/about-rpc/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/06/30/gitlab-cicd/"><img class="fill" src="/covers/cover_6.png" alt="gitlab-cicd"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-06-30T05:01:27.000Z" title="2021/6/30 下午1:01:27">2021-06-30</time>发表</span><span class="level-item"><time dateTime="2021-07-08T05:32:09.900Z" title="2021/7/8 下午1:32:09">2021-07-08</time>更新</span><span class="level-item">几秒读完 (大约34个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/06/30/gitlab-cicd/">gitlab-cicd</a></h1><div class="content"><h3 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h3><h4 id="1-1-准备服务器"><a href="#1-1-准备服务器" class="headerlink" title="1.1 准备服务器"></a>1.1 准备服务器</h4><p><img src="/2021/06/30/gitlab-cicd/image-20210630150943773.png" alt="image-20210630150943773"></p>
+</ul></div><a class="article-more button is-small is-size-7" href="/2021/07/05/about-rpc/#more">阅读更多</a></article></div><div class="card"><div class="card-image"><a class="image is-7by3" href="/2021/06/30/gitlab-cicd/"><img class="fill" src="/covers/cover_5.png" alt="gitlab-cicd"></a></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2021-06-30T05:01:27.000Z" title="2021/6/30 下午1:01:27">2021-06-30</time>发表</span><span class="level-item"><time dateTime="2021-07-08T05:32:09.900Z" title="2021/7/8 下午1:32:09">2021-07-08</time>更新</span><span class="level-item">几秒读完 (大约34个字)</span></div></div><h1 class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2021/06/30/gitlab-cicd/">gitlab-cicd</a></h1><div class="content"><h3 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h3><h4 id="1-1-准备服务器"><a href="#1-1-准备服务器" class="headerlink" title="1.1 准备服务器"></a>1.1 准备服务器</h4><p><img src="/2021/06/30/gitlab-cicd/image-20210630150943773.png" alt="image-20210630150943773"></p>
 <h4 id="1-2-连接到云服务器上"><a href="#1-2-连接到云服务器上" class="headerlink" title="1.2 连接到云服务器上"></a>1.2 连接到云服务器上</h4><p><img src="/2021/06/30/gitlab-cicd/image-20210630151109820.png" alt="image-20210630151109820"></p>
 <h3 id="二、安装gitlab"><a href="#二、安装gitlab" class="headerlink" title="二、安装gitlab"></a>二、安装gitlab</h3></div></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous is-invisible is-hidden-mobile"><a href="/page/0/">上一页</a></div><div class="pagination-next"><a href="/page/2/">下一页</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link is-current" href="/">1</a></li><li><a class="pagination-link" href="/page/2/">2</a></li><li><span class="pagination-ellipsis">&hellip;</span></li><li><a class="pagination-link" href="/page/5/">5</a></li></ul></nav></div><div class="column column-left is-4-tablet is-4-desktop is-3-widescreen  order-1 is-sticky"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="Leonce"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Leonce</p><p class="is-size-6 is-block">BUG开发工程师</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>四川，成都</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">21</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">1</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">13</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/leocnelei" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/leoncelei"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><figure class="media-left"><a class="image" href="/2021/07/08/linux-q-a/"><img src="/thumbnail/image0.png" alt="linux Q&amp;A"></a></figure><div class="media-content"><p class="date"><time dateTime="2021-07-08T05:21:09.000Z">2021-07-08</time></p><p class="title"><a href="/2021/07/08/linux-q-a/">linux Q&amp;A</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2021/07/07/interview-review/"><img src="/thumbnail/image0.png" alt="软件测试面经总结"></a></figure><div class="media-content"><p class="date"><time dateTime="2021-07-07T14:33:15.000Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/interview-review/">软件测试面经总结</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2021/07/07/linux-fs/"><img src="/thumbnail/image0.png" alt="Linux文件系统"></a></figure><div class="media-content"><p class="date"><time dateTime="2021-07-07T02:44:19.000Z">2021-07-07</time></p><p class="title"><a href="/2021/07/07/linux-fs/">Linux文件系统</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2021/07/05/about-rpc/"><img src="/thumbnail/image1.png" alt="跨语言通信方案：protobuf、thrift、avro"></a></figure><div class="media-content"><p class="date"><time dateTime="2021-07-05T05:09:04.000Z">2021-07-05</time></p><p class="title"><a href="/2021/07/05/about-rpc/">跨语言通信方案：protobuf、thrift、avro</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2021/06/30/gitlab-cicd/"><img src="/thumbnail/image2.png" alt="gitlab-cicd"></a></figure><div class="media-content"><p class="date"><time dateTime="2021-06-30T05:01:27.000Z">2021-06-30</time></p><p class="title"><a href="/2021/06/30/gitlab-cicd/">gitlab-cicd</a></p></div></article></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-4-tablet is-4-desktop is-3-widescreen is-hidden-touch is-hidden-desktop-only order-3"><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/interview/"><span class="level-start"><span class="level-item">interview</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li></ul></div></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2021/07/"><span class="level-start"><span class="level-item">七月 2021</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile" href="/archives/2021/06/"><span class="level-start"><span class="level-item">六月 2021</span></span><span class="level-end"><span class="level-item tag">17</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/dp/"><span class="tag">dp</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/interview/"><span class="tag">interview</span><span class="tag">10</span></a></div><div class="control"><a class="tags has-addons" href="/tags/interview-python/"><span class="tag">interview python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/java/"><span class="tag">java</span><span class="tag">5</span></a></div><div class="control"><a class="tags has-addons" href="/tags/kernel/"><span class="tag">kernel</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/linux/"><span class="tag">linux</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/linux-%E9%9D%A2%E8%AF%95/"><span class="tag">linux 面试</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/mysql/"><span class="tag">mysql</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/network/"><span class="tag">network</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/pointer/"><span class="tag">pointer</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/rpc/"><span class="tag">rpc</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"><span class="tag">软件测试</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/%E9%9D%A2%E7%BB%8F/"><span class="tag">面经</span><span class="tag">1</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">订阅更新</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="订阅"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="暴龙战士" height="28"></a><p class="is-size-7"><span>&copy; 2021 Leonce</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a><br><span id="busuanzi_container_site_uv">共<span id="busuanzi_value_site_uv">0</span>个访客</span></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-CN");</script><script>var IcarusThemeSettings = {
             article: {
